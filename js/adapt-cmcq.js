@@ -1,7 +1,7 @@
 define([
     'coreJS/adapt',
     'components/adapt-contrib-mcq/js/adapt-contrib-mcq',
-    'core/js/libraries/prism'
+    'core/js/libraries/highlight.pack'
 ], function(Adapt, Mcq) {
 
     var Cmcq = Mcq.view.extend({
@@ -38,7 +38,7 @@ define([
             this.$('label').imageready(_.bind(function() {
                 this.setReadyStatus();
             }, this));
-            Prism.highlightAll();
+            hljs.initHighlighting();
 
         },
 
