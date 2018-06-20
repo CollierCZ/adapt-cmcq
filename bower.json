@@ -1,17 +1,17 @@
 {
-  "name": "adapt-cmcq",
-  "repository": "git://github.com/CollierCZ/adapt-cmcq.git",
-  "version": "0.1",
-  "framework": ">=2.0.11",
-  "homepage": "https://github.com/CollierCZ/adapt-cmcq",
-  "issues": "https://github.com/CollierCZ/adapt-cmcq/issues",
-  "displayName" : "Code Multiple Choice Question",
-  "component" : "cmcq",
-  "description": "A multiple choice question component with code blocks for choices",
-  "main": "/js/adapt-cmcq.js",
-  "keywords": [
-    "adapt-plugin",
-    "adapt-component"
-  ],
-  "license": "GPLv3"
+    "name": "adapt-cmcq",
+    "repository": "git://github.com/CollierCZ/adapt-cmcq.git",
+    "framework": ">=2.0.11",
+    "version": "0.1",
+    "homepage": "https://github.com/CollierCZ/adapt-cmcq",
+    "issues": "https://github.com/CollierCZ/adapt-cmcq/issues",
+    "displayName": "Code Multiple Choice Question",
+    "component": "cmcq",
+    "description": "A multiple choice question component with code blocks for choices",
+    "main": "/js/adapt-cmcq.js",
+    "keywords": [
+        "adapt-plugin",
+        "adapt-component"
+    ],
+    "license": "GPLv3"
 }
