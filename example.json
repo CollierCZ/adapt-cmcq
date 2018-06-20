@@ -1,0 +1,79 @@
+{
+    "_id": "c-05",
+    "_parentId": "b-05",
+    "_type": "component",
+    "_component": "cmcq",
+    "_classes": "",
+    "_layout": "full",
+    "_attempts": 1,
+    "_shouldDisplayAttempts": false,
+    "_questionWeight": 1,
+    "_isRandom": false,
+    "_selectable": 1,
+    "_canShowModelAnswer": true,
+    "_canShowFeedback": true,
+    "_canShowMarking": true,
+    "_recordInteraction": true,
+    "_columns": 3,
+    "title": "CMCQ",
+    "displayTitle": "CMCQ",
+    "body": "Which of the following options is valid html?",
+    "instruction": "",
+    "_items": [
+        {
+            "title": "This is option 1.",
+            "_shouldBeSelected":false,
+            "code": {
+    					"src": "p { color: red }\nbody {color:blue}",
+    					"lang": "css"
+    				}
+        },
+        {
+            "title": "This is option 2.",
+            "_shouldBeSelected": true,
+            "code": {
+    					"src": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<title>Narrative</title>\n</head>\n<body>\n<p>Hello world!</p>\n</body>\n</html>",
+    					"lang": "html"
+    				}
+        }
+    ],
+    "_feedback":{
+        "correct": "Congratulations, this is the correct feedback.",
+        "_incorrect": {
+            "notFinal": "",
+            "final": "Unfortunately this is the incorrect feedback."
+        },
+        "_partlyCorrect": {
+            "notFinal": "",
+            "final": "This is the partly correct feedback."
+        }
+    },
+    "_comment": "You only need to include _buttons if you want to override the button labels that are set in course.json",
+    "_buttons": {
+        "_submit": {
+            "buttonText": "Submit",
+            "ariaLabel": "Select here to submit your answer."
+        },
+        "_reset": {
+            "buttonText": "Reset",
+            "ariaLabel": ""
+        },
+        "_showCorrectAnswer": {
+            "buttonText": "Correct Answer",
+            "ariaLabel": ""
+        },
+        "_hideCorrectAnswer": {
+            "buttonText": "My Answer",
+            "ariaLabel": ""
+        },
+        "_showFeedback": {
+            "buttonText": "Show feedback",
+            "ariaLabel": ""
+        },
+        "remainingAttemptsText": "attempts remaining",
+        "remainingAttemptText": "final attempt"
+    },
+    "_pageLevelProgress": {
+        "_isEnabled": true
+    }
+}
