@@ -26,7 +26,8 @@
             "code": {
     					"src": "p { color: red }\nbody {color:blue}",
     					"lang": "css"
-    				}
+    				},
+            "feedback": "No, this is CSS."
         },
         {
             "title": "This is option 2.",
@@ -34,7 +35,17 @@
             "code": {
     					"src": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<title>Narrative</title>\n</head>\n<body>\n<p>Hello world!</p>\n</body>\n</html>",
     					"lang": "html"
-    				}
+    				},
+            "feedback": "Cool. You nailed it."
+        },
+        {
+            "title": "This is option 3.",
+            "_shouldBeSelected":false,
+            "code": {
+    					"src": "using System;\nnamespace HelloWorld\n{\n    class Hello\n    {\n        static void Main()\n        {\n            Console.WriteLine(\"Hello World!\");\n        }\n    }\n}",
+    					"lang": "csharp"
+    				},
+            "feedback": "No, this is C#."
         }
     ],
     "_feedback":{
