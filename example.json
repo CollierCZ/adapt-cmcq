@@ -35,8 +35,7 @@
             "code": {
     					"src": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<title>Narrative</title>\n</head>\n<body>\n<p>Hello world!</p>\n</body>\n</html>",
     					"lang": "html"
-    				},
-            "feedback": "Cool. You nailed it."
+    				}
         },
         {
             "title": "This is option 3.",
@@ -49,7 +48,7 @@
         }
     ],
     "_feedback":{
-        "correct": "Congratulations, this is the correct feedback.",
+        "correct": "Cool. You nailed it.",
         "_incorrect": {
             "notFinal": "",
             "final": "Unfortunately this is the incorrect feedback."
