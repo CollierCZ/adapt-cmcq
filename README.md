@@ -4,8 +4,6 @@
 
 It presents possible answers in the form of code. **CMCQ** is a variation on [**MCQ**](https://github.com/adaptlearning/mcq/wiki). It can be configured with a single correct answer or multiple correct answers. Upon submission, feedback is provided via the [**Tutor** extension](https://github.com/adaptlearning/adapt-contrib-tutor), if installed. Feedback can be provided for correct, incorrect and partially correct answers. The number of attempts allowed may be configured.
 
-[Visit the **CMCQ** wiki](https://github.com/adaptlearning/adapt-contrib-gmcq/wiki) for more information about its functionality and for explanations of key properties.
-
 
 
 ## Installation
