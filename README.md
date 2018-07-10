@@ -103,6 +103,6 @@ label is not a visible element. It is utilized by assistive technology such as s
 No known limitations.   
 
 ----------------------------
-**Version number:**  0.1  
+**Version number:**  0.5.1  
 **Framework versions:** 2+  
 **Author / maintainer:** [Aaron Collier](https://github.com/CollierCZ). Forked in June 2018 from the [GMCQ component](https://github.com/adaptlearning/adapt-contrib-gmcq) written by the Adapt Core Team with [contributors](https://github.com/adaptlearning/adapt-contrib-gmcq/graphs/contributors)    
