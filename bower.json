@@ -2,7 +2,7 @@
     "name": "adapt-cmcq",
     "repository": "git://github.com/CollierCZ/adapt-cmcq.git",
     "framework": ">=2.0.11",
-    "version": "0.5.1",
+    "version": "0.5.2",
     "homepage": "https://github.com/CollierCZ/adapt-cmcq",
     "issues": "https://github.com/CollierCZ/adapt-cmcq/issues",
     "displayName": "Code Multiple Choice Question",
