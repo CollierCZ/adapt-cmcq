@@ -40,10 +40,6 @@ define([
             }, this));
             Prism.highlightAll();
 
-        },
-
-        onDeviceResize: function() {
-            this.setUpColumns();
         }
 
     }, {
